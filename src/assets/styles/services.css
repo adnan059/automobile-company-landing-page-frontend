@@ -1,0 +1,44 @@
+.services {
+  background: url("../images/service-bg.jpg");
+  @apply bg-repeat;
+}
+
+.serviceContainer {
+  @apply mt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-y-10 md:gap-x-10 relative z-20 lg:gap-y-15;
+}
+
+.illustrationBox {
+  @apply hidden md:block absolute z-10 w-[400px] bottom-[-30px] left-[50%] transform translate-x-[-50%] lg:w-[500px];
+}
+
+.illustrationBox img {
+  @apply w-full;
+}
+
+.serviceCard {
+  @apply max-w-[300px] w-full mx-auto relative z-20 md:self-end;
+}
+
+.serviceContainer > .serviceCard:last-child {
+  @apply md:col-start-3 md:row-start-[last] justify-self-end self-end;
+}
+
+.serviceIcon {
+  @apply bg-main-white rounded-full mx-auto;
+}
+
+.serviceType {
+  @apply text-lg sm:text-xl lg:text-[22px] text-eerie-black uppercase font-chakra font-semibold text-center;
+}
+
+.serviceDesc {
+  @apply text-center text-sonic-silver my-2  text-base lg:text-lg;
+}
+
+.serviceButton {
+  @apply text-base uppercase mx-auto font-chakra text-international-orange-engineering font-bold;
+}
+
+.servicePrimaryButton {
+  @apply text-base md:text-lg mx-auto mt-30 font-chakra;
+}

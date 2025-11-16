@@ -1,0 +1,47 @@
+header {
+  @apply py-4 fixed top-0 right-0 left-0  px-6 min-[1290]:px-0  z-40;
+}
+
+.headerContainer {
+  @apply max-w-[1280px] w-full mx-auto  text-white flex justify-between items-end min-[992px]:items-center;
+}
+
+.headerLogo {
+  @apply ml-20 2xl:ml-0;
+}
+
+.headerLogo img {
+  @apply w-[128px] h-[63px];
+}
+
+.headerNav {
+  @apply absolute py-6 top-[95%] right-5 bg-international-orange-engineering min-[992px]:static min-[992px]:bg-transparent min-[992px]:py-0;
+}
+
+.headerNav ul {
+  @apply flex justify-center gap-5 items-center flex-col min-[992px]:flex-row;
+}
+
+.headerNav ul li {
+  @apply relative;
+}
+
+.headerNav ul li a {
+  @apply font-fw-400 px-8 w-full text-sm sm:text-base block py-1  font-chakra uppercase leading-6 min-[992px]:px-0 min-[992px]:py-0;
+}
+
+.headerNav ul li img {
+  @apply absolute -bottom-3 left-[50%] transform -translate-x-[50%]  hidden min-[992px]:group-hover:block;
+}
+
+.headerButtons {
+  @apply flex justify-center items-center gap-2;
+}
+
+.headerButtons button:nth-of-type(1) {
+  @apply block min-[992px]:hidden;
+}
+
+.headerButtons button:nth-of-type(2) {
+  @apply uppercase font-chakra min-[992px]:flex hidden hover:mb-3 hover:bg-oxford-blue-1 hover:border border-main-white text-sm sm:text-base;
+}

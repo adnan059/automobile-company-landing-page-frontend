@@ -1,0 +1,47 @@
+.about {
+  @apply pt-[75px]  min-[992px]:pl-0 
+    bg-space-cadet text-main-white flex flex-col justify-center min-[992px]:flex-row min-[992px]:gap-10 min-[992px]:pt-0 min-[1290px]:pr-6;
+}
+
+.aboutImages {
+  background-image: url("../images/about-abs-banner.png");
+  @apply bg-no-repeat bg-cover bg-right min-[992px]:relative min-[992px]:w-[50vw];
+}
+
+.about_banner {
+  @apply mx-auto min-[992px]:absolute min-[992px]:right-0 min-[992px]:bottom-[50%] min-[992px]:transform min-[992px]:translate-y-[50%] min-[992px]:max-w-[30vw] lg:max-w-[25vw];
+}
+
+.about .sectionContainer {
+  @apply min-[992px]:w-[50vw];
+}
+
+.about .sectionSubTitle {
+  @apply text-main-white;
+}
+
+.aboutDesc {
+  @apply my-6 mx-auto text-center md:text-lg max-w-[600px];
+}
+
+.aboutStats {
+  @apply mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4 place-items-center place-content-center;
+}
+
+.aboutStatBox {
+  @apply w-full p-6 text-main-white bg-oxford-blue-2 max-w-full;
+}
+
+.aboutStatBox h2 {
+  @apply text-3xl font-bold font-chakra text-center md:text-4xl;
+}
+
+.aboutStatBox p {
+  @apply capitalize font-chakra text-center mt-2 md:text-lg;
+}
+
+@media (max-width: 992px) {
+  .aboutImages {
+    background-image: none;
+  }
+}

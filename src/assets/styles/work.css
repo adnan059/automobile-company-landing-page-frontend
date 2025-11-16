@@ -1,0 +1,39 @@
+.workCarousel {
+  @apply w-full  max-w-[500px] md:max-w-full mt-16 mx-auto;
+}
+
+.workCarouselContent {
+  @apply -ml-1;
+}
+
+.workCarouselItem {
+  @apply pl-1 md:basis-1/2 xl:basis-1/3;
+}
+
+.workCarouselItemCard {
+  @apply p-4 mx-auto w-full relative z-5;
+}
+
+.workCarouselItemCardImg {
+  @apply w-full h-60 object-cover;
+}
+
+.workCarouselItemCardTexts {
+  @apply bg-main-white shadow-xl shadow-neutral-200 max-w-[80%] mx-auto py-5 -mt-18 relative z-10;
+}
+
+.workCarouselItemCardTexts h2 {
+  @apply text-center text-base font-chakra font-bold uppercase text-international-orange-engineering;
+}
+
+.workCarouselItemCardTexts p {
+  @apply font-chakra uppercase font-semibold text-eerie-black text-lg sm:text-xl md:text-[22px] text-center  mt-3 mb-4;
+}
+
+.workCarouselPrevBtn {
+  @apply top-[105%] left-0;
+}
+
+.workCarouselNextBtn {
+  @apply top-[105%] right-0;
+}

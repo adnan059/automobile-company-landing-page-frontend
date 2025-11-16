@@ -1,0 +1,42 @@
+.hero {
+  background: url("../images/hero-bg.jpg");
+  @apply w-full bg-no-repeat pt-40  bg-top-left flex flex-col justify-center items-center  px-0 min-[992px]:flex-row;
+}
+
+.hero .sectionContainer {
+  @apply pb-10 px-6 min-[992px]:pl-16 min-[992px]:pr-0 min-[992px]:pb-[75px] w-full lg:max-w-[550px] xl:max-w-[650px] lg:-mr-[190px];
+}
+
+.heroContent {
+  @apply flex flex-col items-center gap-4 min-[992px]:items-start min-[992px]:max-w-[550px] w-full relative z-30;
+}
+
+.heroSubtitle {
+  @apply text-main-white font-chakra font-semibold text-center text-sm sm:text-base md:text-lg;
+}
+
+.heroSubtitle::before {
+  background-image: url("../images/about-shape.png");
+
+  @apply content-[''] inline-block w-5 h-5 mr-1.5 bg-contain bg-no-repeat;
+}
+
+.heroTitle {
+  @apply w-full uppercase tracking-wide text-center font-bold text-main-white font-chakra  text-3xl sm:text-4xl md:text-5xl lg:text-6xl min-[992px]:text-left;
+}
+
+.heroDesc {
+  @apply w-full text-center text-main-white text-base md:text-lg min-[992px]:text-left;
+}
+
+.heroButton {
+  @apply text-base font-chakra uppercase mt-2;
+}
+
+.heroBanner {
+  @apply w-full max-w-[95vw] sm:max-w-[70vw] md:max-w-[60vw] lg:max-w-[1200px]   self-end;
+}
+
+.heroBanner img {
+  @apply w-full;
+}

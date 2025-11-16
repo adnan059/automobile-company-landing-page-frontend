@@ -1,0 +1,81 @@
+footer {
+  @apply bg-space-cadet;
+}
+
+.footerContainer {
+  @apply mx-auto pt-[75px] flex justify-center overflow-hidden;
+}
+
+.footerImage1 {
+  background-image: url("../images/footer-shape-2.png");
+
+  @apply bg-no-repeat bg-position-[left_10%_bottom_0%] hidden xl:block max-w-[50vw] xl:-mb-12 w-full 2xl:-ml-10;
+}
+
+.footerContents {
+  @apply flex flex-col justify-between xl:max-w-[50vw] w-full;
+}
+
+.footerTextContents {
+  @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10  px-6  pb-10 place-content-center xl:pb-0;
+}
+
+.footerContentPart1 {
+  @apply space-y-4;
+}
+
+.footerContentPart1 .footerLogo img {
+  @apply max-w-[120px] w-full;
+}
+
+.footerContentPart1 p {
+  @apply text-cadet-blue-creyola;
+}
+
+.footerContentPart1 .social-list {
+  @apply flex justify-start items-center gap-3;
+}
+
+.footerContentPart1 .social-list li a {
+  @apply bg-oxford-blue-3 p-2 rounded-full;
+}
+
+.footerContentPart1 .social-list li a img {
+  @apply w-5 h-5;
+}
+
+.footerContentPart2 h3,
+.footerContentPart3 h3 {
+  @apply text-main-white uppercase font-chakra font-semibold text-lg md:text-xl mb-3;
+}
+
+.footerContentPart2 ul {
+  @apply space-y-2.5;
+}
+.footerContentPart2 ul li p {
+  @apply text-main-white mb-1.5;
+}
+
+.footerContentPart2 ul li span {
+  @apply text-cadet-blue-creyola;
+}
+
+.footerContentPart3 ul {
+  @apply space-y-2.5;
+}
+
+.footerContentPart3 ul li {
+  @apply text-cadet-blue-creyola;
+}
+
+.footerImage2 {
+  @apply hidden sm:block -mr-6 self-end max-w-[800px] w-full;
+}
+
+.footerImage2 img {
+  @apply w-full;
+}
+
+.copyright {
+  @apply capitalize p-6 text-center bg-oxford-blue-1 text-white;
+}
