@@ -86,7 +86,7 @@ const Footer = () => {
                 <ul>
                   <li>
                     <a href="tel:+01234567890" className="footer-link">
-                      +01 2 3456 7890
+                      +01 2 3456 XXXX
                     </a>
                   </li>
 
@@ -98,7 +98,7 @@ const Footer = () => {
 
                   <li>
                     <address className="footer-link address">
-                      21 King Street Melbourne, 3000, Australia
+                      21 Parkinson Street Melbourne, 3000, Australia
                     </address>
                   </li>
                 </ul>
